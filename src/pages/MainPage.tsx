@@ -2,6 +2,7 @@ import { Box, Typography } from '@mui/material';
 import reactLogo from '/react.svg';
 import viteLogo from '/vite.svg';
 import Stack from '@mui/material/Stack';
+import Counter from '../components/counter/Counter';
 
 const MainPage = () => {
   return (
@@ -23,6 +24,7 @@ const MainPage = () => {
         </Typography>
       </Box>
       <Typography>Click on the Vite and React logos to learn more</Typography>
+      <Counter />
     </>
   );
 };
